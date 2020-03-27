@@ -1,3 +1,4 @@
+![](https://github.com/samply-app/samply-desktop/workflows/Build/badge.svg)
 <p align="center">
   <img width="400" src="https://user-images.githubusercontent.com/24927782/77722011-bf6d7800-6fa9-11ea-9ab7-4b1517756eab.png">
 </p>
