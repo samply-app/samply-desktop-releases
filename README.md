@@ -2,8 +2,6 @@
   <img width="400" src="https://user-images.githubusercontent.com/24927782/77722011-bf6d7800-6fa9-11ea-9ab7-4b1517756eab.png">
 </p>
 
----
-
 # Samply
 By grouping your audio samples based on how they sound, Samply helps you find the samples you need in the simplest way possible.
 ### Resources
