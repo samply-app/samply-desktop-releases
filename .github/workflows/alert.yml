@@ -1,0 +1,17 @@
+on:
+  issues:
+    types: [opened]
+name: Alert
+jobs:
+  notify:
+    name: New User Issue
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Tell Slack"
+        uses: samply-app/slackbot@master
+        with:
+          message: "New Issue Reported :rotating_light: @channel"
+          url: "https://github.com/samply-app/samply-desktop-releases/issues"
+          urlText: "View Issues"
+          channel: "#deployments"
+          slack-token: ${{ secrets.SLACK_TOKEN }}
